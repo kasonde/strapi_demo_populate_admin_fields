@@ -1,45 +1,23 @@
-# 🚀 Getting started with Strapi
+# 🚀 Getting started with this demo
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+To get started with this demo, you will need to follow the following steps:
 
-### `develop`
+1. Install the dependencies by running `npm install` or `yarn` in your terminal (in the root of the project)
+2. Copy the .env.example file and populate those empty fields with the required values
+3. Run the application by running `yarn develop` or `npm run develop`.
+4. If you would like to make changes to this demo and view those changes as they happen, run `yarn develop --watch-admin` or `npm run develop --watch-admin`.
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+---
 
-```
-npm run develop
-# or
-yarn develop
-```
+This example uses Javascript.
 
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
+---
 
 ## 📚 Learn more
 
 - [Resource center](https://strapi.io/resource-center) - Strapi resource center.
 - [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
+  - [Injection Zones API Documentation](https://docs.strapi.io/dev-docs/api/plugins/admin-panel-api#injection-zones-api) - More context on Injecton Zones and the useCMEditViewDataManager hook
 - [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
 - [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
 - [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
