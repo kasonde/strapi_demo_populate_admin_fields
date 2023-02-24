@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "people",
+  "info": {
+    "singularName": "person",
+    "pluralName": "people",
+    "displayName": "Person",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "hobbies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hobby.hobby"
+    }
+  }
+}
